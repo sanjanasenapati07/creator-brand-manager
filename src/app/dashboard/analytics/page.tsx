@@ -195,13 +195,13 @@ export default function AnalyticsPage() {
     : 0
 
   const CHART_COLORS = [
-    'rgba(99,102,241,0.9)',
-    'rgba(20,184,166,0.9)',
-    'rgba(245,158,11,0.9)',
-    'rgba(239,68,68,0.9)',
-    'rgba(168,85,247,0.9)',
-    'rgba(59,130,246,0.9)',
-  ]
+  'rgba(139, 111, 71, 0.9)',   // Antique Gold
+  'rgba(92, 64, 51, 0.9)',     // Espresso Brown
+  'rgba(85, 107, 47, 0.9)',    // Dark Olive
+  'rgba(109, 53, 53, 0.9)',    // Burgundy
+  'rgba(120, 94, 66, 0.9)',    // Sepia
+  'rgba(74, 60, 49, 0.9)',     // Dark Walnut
+]
 
   const barData = {
     labels: monthly.labels,
@@ -211,7 +211,7 @@ export default function AnalyticsPage() {
       backgroundColor: CHART_COLORS,
       borderRadius: 10,
       borderSkipped: false,
-      hoverBackgroundColor: 'rgba(99,102,241,1)',
+      hoverBackgroundColor: 'rgba(181, 137, 72, 1)',
     }],
   }
 
